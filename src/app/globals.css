@@ -15,6 +15,8 @@ button, a, input, select, textarea { -webkit-tap-highlight-color: transparent; }
 ::selection { background: #dce8df; color: #243d34; }
 .surface { border: 1px solid #e3e6e2; background: #fff; border-radius: 0.75rem; }
 .field { width: 100%; min-height: 2.5rem; border-radius: 0.5rem; border: 1px solid #dce0dc; background: #fff; padding: 0.625rem 0.75rem; font-size: 0.875rem; color: #202420; outline: none; transition: border-color .15s, box-shadow .15s; }
+.field-icon-left { padding-left: 2.5rem; }
+.field-icons-both { padding-left: 2.5rem; padding-right: 2.5rem; }
 .field:focus { border-color: #7f9689; box-shadow: 0 0 0 3px rgba(36,61,52,.1); }
 .field::placeholder { color: #9aa19b; }
 .label { display: block; margin-bottom: .4rem; font-size: .8125rem; font-weight: 600; color: #454c47; }
